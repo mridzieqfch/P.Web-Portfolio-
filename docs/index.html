@@ -1,127 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form Input Data Karyawan</title>
-
-    <link rel="stylesheet"
-    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
 </head>
-<body>
-  <header>
-    <a href="#" class="logo"><Span>F</Span>orm<span>I</span>nput<span>.</span></a>
-    <div>
-      <a href="#" class="btnUser"><span><i class='bx bx-user'></i></span>User</a>
-    </div>
-  </header>
-
-  <div class="container">
-    <h2 >Form Input Data Karyawan</h2>
-    <div class="row">
-      <img src="assets/foto3.avif">
-      <div class="layer">
-          <h5><span>P</span>emograman <span>WEB</span>.</h5>
-          <p><span>Tugas Membuat 10 Form Input dengan HTML & CSS.</span></p>
-          <br>
-          <p>Muhammad Ridzieq Fachriansyah (202331070)</p>
-          <p>Anjeli Rizki Syamiaputri (202331065)</p>
-      </div>
-    </div>
-
-    <div>
-      <form>
-        <div>
-          <label for="nama">Nama Lengkap:</label>
-          <input type="text" id="nama" placeholder="Masukkan Nama" name="nama" required>
-        </div>
-        
-        <div>
-          <label for="tanggal-lahir">Tanggal Lahir:</label>
-          <div class="date-group">
-            <input type="number" placeholder="Tanggal" name="tanggal-lahir-hari" required>
-            <input type="number" placeholder="Bulan" name="tanggal-lahir-bulan" required>
-            <input type="number" placeholder="Tahun" name="tanggal-lahir-tahun" required>
-          </div>
-        </div>
-
-        <div>
-          <label for="jenis-kelamin">Jenis Kelamin:</label>
-          <div class="jenis-kelamin">
-            <div class="pria"><input type="radio" name="jenis-kelamin" id="pria" value="pria">Pria</div>
-            <div class="wanita"><input type="radio" name="jenis-kelamin" id="wanita" value="pria">Wanita</div>
-          </div>
-        </div>
-        
-        <div>
-          <label for="alamat">Alamat:</label>
-          <textarea id="alamat" placeholder="Masukkan Alamat" name="alamat" rows="3" required></textarea>
-        </div>
-        
-        <div class="form-grid">
-          <div>
-            <label for="nomor-karyawan">Nomor Induk Karyawan:</label>
-            <input type="text" id="nomor-karyawan" placeholder="Masukkan No. Induk Karyawan" name="nomor-karyawan" required>
-          </div>
-
-          <div>
-            <label for="email">Email:</label>
-            <input type="email" id="email" placeholder="Masukkan Email" name="email" required>
-          </div>
-
-          <div>
-            <label for="telepon">Nomor Telepon:</label>
-            <input type="tel" id="telepon" placeholder="Masukkan No. Telepon" name="telepon" required>
-          </div>
-          
-          <div>
-            <label for="tanggal-mulai">Tanggal Mulai Bekerja:</label>
-            <div class="date-group">
-              <input type="number" id="tgl-mulai" name="tgl-mulai" placeholder="Tanggal" min="1" max="31" required>
-              <input type="number" id="bln-mulai" name="bln-mulai" placeholder="Bulan" min="1" max="12" required>
-              <input type="number" id="thn-mulai" name="thn-mulai" placeholder="Tahun" min="1900" max="2100" required>
-            </div>
-          </div>
-
-          <div>
-            <label for="gaji">Gaji Pokok:</label>
-            <input type="number" id="gaji" placeholder="Masukkan Gaji Pokok (Angka)" name="gaji" required>
-          </div>
-        
-          <div>
-            <label for="jabatan">Jabatan:</label>
-            <input type="text" id="jabatan" placeholder="Masukkan Jabatan" name="jabatan" required>
-          </div>
-        </div>
-        
-        <div>
-          <label for="status">Status Karyawan:</label>
-          <select id="status" name="status" required>
-            <option value="tetap">Tetap</option>
-            <option value="kontrak">Kontrak</option>
-            <option value="magang">Magang</option>
-          </select>
-        </div>
-        
-        <input type="submit" class="submit" value="Submit">
-      </form>
-    </div>
-  </div>
-
-  <!-- Footer Section -->
-  <section class="footer">
-    <div class="footer-text">
-      <h5><span>P</span>EMOGRAMAN <SPAN>WEB</SPAN>.</h5>
-      <div>
-        <p>Copyright <span>&copy</span> 2024 by MRIDZIEQF & ANJELI</p>
-      </div>
-    </div>
-  </section>
+<body style="padding: 0;">
+  <h1 style="display: flex; justify-content: center; align-items: center;">Portfolio</h1>
+  <p style="display: flex; justify-content: center; align-items: center;">Selamat Datang di Website Portfolio Sederhana Ini. Saya Muhammad Ridzieq Fachriansyah, dengan NIM 202331070 dan asal saya dari Pontianak Kalimantan Barat.</p>
+  <figure style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+    <img style="border-radius: 6%; margin: 5px; width: 330px;" src="assets/img/about1.jpg" alt="mrfPhoto"  >
+    <figcaption>- MRIDZIEQFCH -</figcaption>
+  </figure>
+  <br/>
+  <a href="second.html" style="display: flex; justify-content: center; align-items: center; flex-direction: column;">To Second Page -></a>
+  <br><br><br><br><hr>
+  <p>&copy; Created by MRIDZIEQF - 2024</p>
 </body>
 </html>
